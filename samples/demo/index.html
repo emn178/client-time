@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>usertime.js</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+  <script type="text/javascript" src="../../src/usertime.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-44208259-3', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body>
+  <div id="header">
+    <h1>usertime.js</h1>
+    <a href="https://github.com/emn178/usertime.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+  </div>
+  <div id="body">
+    <div id="description">
+      <p>
+        Output server time in usertime, it will render time in users' timezone.
+      </p>
+    </div>
+    <div id="code-block">
+      <div class="section">
+        <h4>Timestamp</h4>
+        <p>Code</p>
+        <pre class="brush: html">
+          &lt;usertime&gt;1441099707112&lt;/usertime&gt;
+        </pre>
+        <p>Result</p>
+        <pre class="brush: html">
+          <usertime>1441099707112</usertime>
+        </pre>
+      </div>
+      <div class="section">
+        <h4>ISO 8601</h4>
+        <p>Code</p>
+        <pre class="brush: html">
+          &lt;usertime&gt;2015-09-01T09:28:27+00:00&lt;/usertime&gt;
+        </pre>
+        <p>Result</p>
+        <pre class="brush: html">
+          <usertime>2015-09-01T09:28:27+00:00</usertime>
+        </pre>
+      </div>
+      <div class="section">
+        <p>Code</p>
+        <pre class="brush: html">
+          &lt;usertime&gt;2015-09-01T05:28:27-04:00&lt;/usertime&gt;
+        </pre>
+        <p>Result</p>
+        <pre class="brush: html">
+          <usertime>2015-09-01T05:28:27-04:00</usertime>
+        </pre>
+      </div>
+      <div class="section">
+        <h4>Time format</h4>
+        <p>Code</p>
+        <pre class="brush: html">
+          &lt;usertime format=&quot;lll&quot;&gt;1441099707112&lt;/usertime&gt;
+        </pre>
+        <p>Result</p>
+        <pre class="brush: html">
+          <usertime format="lll">1441099707112</usertime>
+        </pre>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    © 2015 usertime.js Demo and content from Wikipedia
+  </div>
+  <link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet">
+  <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet">
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"></script>
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"></script>
+  <script>
+    SyntaxHighlighter.all();
+  </script>
+</body>
+</html>
