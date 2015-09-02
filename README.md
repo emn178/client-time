@@ -22,12 +22,25 @@ Render server timestamp or string in any JavaScript Date acceptable format.
 
 Time format bases on moment. See [moment.format](http://momentjs.com/docs/#/displaying/format/).
 
+### UserTime.DefaultFormat
+You can change default format to set up `UserTime.DefaultFormat`.
+
 ## Example
 HTML
 ```HTML
 <usertime>1441099707112</usertime>
 <usertime>2015-09-01T09:28:27+00:00</usertime>
 <usertime format="lll">1441099707112</usertime>
+```
+If a user in time zone GMT+8, he will see:
+```HTML
+2015-09-01 17:28:27
+2015-09-01 17:28:27
+Sep 1, 2015 5:28 PM
+```
+You can change default format:
+```JavaScript
+UserTime.DefaultFormat = 'MMMM Do YYYY, h:mm:ss a';
 ```
 
 ## License
