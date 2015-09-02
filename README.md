@@ -18,7 +18,7 @@ HTML
 
 Render server timestamp or string in any JavaScript Date acceptable format.
 
-#### *Datetime Format: `String` (default: `YYYY-MM-DD HH:mm:ss`)*
+#### *format: `String` (default: `YYYY-MM-DD HH:mm:ss`)*
 
 Time format bases on moment. See [moment.format](http://momentjs.com/docs/#/displaying/format/).
 
