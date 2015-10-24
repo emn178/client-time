@@ -8,6 +8,11 @@ A jQuery plugin provides to display time in user's timezone.
 ## Demo
 [Demo](http://emn178.github.io/usertime.js/samples/demo/)
 
+## Installation
+You can also install usertime.js by using Bower.
+
+    bower install usertime.js
+
 ## Usage
 HTML
 ```HTML
