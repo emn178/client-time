@@ -1,3 +1,7 @@
+# v0.1.2 / 2016-08-23
+
+Added MutationObserver detection.
+
 # v0.1.1 / 2015-10-24
 
 Support turbolink.
