@@ -1,3 +1,7 @@
+# v0.1.3 / 2016-08-23
+
+Fixed MutationsObserver detection behavior.
+
 # v0.1.2 / 2016-08-23
 
 Added MutationObserver detection.
