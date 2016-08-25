@@ -1,4 +1,4 @@
-# v0.1.3 / 2016-08-23
+# v0.1.3 / 2016-08-25
 
 Fixed MutationsObserver detection behavior.
 
